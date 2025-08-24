@@ -2,21 +2,24 @@ body {
   background: linear-gradient(to right, lightblue, pink);
 }
 
+h1 {
+  color: #2c3e50; 
+}
 .card {
-  background: #fff;             /* fondo blanco */
-  border: 1px solid #ccc;       /* borde gris suave */
-  border-radius: 10px;          /* esquinas redondeadas */
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* sombra suave */
+  background: #fff;             
+  border: 1px solid #ccc;       
+  border-radius: 10px;          
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
   padding: 20px;
-  max-width: 900px;             /* ancho máximo */
-  margin: 20px auto;            /* centrado horizontal */
+  max-width: 900px;             
+  margin: 20px auto;            
   margin-top: 120px;
 }
 
 .contenido {
   display: flex;
-  align-items: center;  /* centra verticalmente imagen y texto */
-  gap: 20px;            /* espacio entre texto e imagen */
+  align-items: center;  
+  gap: 20px;            
 }
 
 .contenido img {
@@ -24,5 +27,5 @@ body {
 }
 
 .texto {
-  flex: 1; /* el texto ocupa todo el espacio disponible */
+  flex: 1; 
 }
