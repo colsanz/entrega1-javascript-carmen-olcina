@@ -1,0 +1,28 @@
+body {
+  background: linear-gradient(to right, lightblue, pink);
+}
+
+.card {
+  background: #fff;             /* fondo blanco */
+  border: 1px solid #ccc;       /* borde gris suave */
+  border-radius: 10px;          /* esquinas redondeadas */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* sombra suave */
+  padding: 20px;
+  max-width: 900px;             /* ancho máximo */
+  margin: 20px auto;            /* centrado horizontal */
+  margin-top: 120px;
+}
+
+.contenido {
+  display: flex;
+  align-items: center;  /* centra verticalmente imagen y texto */
+  gap: 20px;            /* espacio entre texto e imagen */
+}
+
+.contenido img {
+  max-width: 200px;
+}
+
+.texto {
+  flex: 1; /* el texto ocupa todo el espacio disponible */
+}
